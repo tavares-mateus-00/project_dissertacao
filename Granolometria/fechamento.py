@@ -1,3 +1,8 @@
+import numpy as np
+import cv2
+import skimage.morphology as mm
+import matplotlib.pyplot as plt
+
 controle = ['controle (1).jpg', 'controle (2).jpg', 'controle (3).jpg',
             'controle (4).jpg', 'controle (5).jpg', 'controle (6).jpg',
             'controle (7).jpg', 'controle (8).jpg', 'controle (9).jpg',
@@ -41,9 +46,6 @@ tw = ['tw (1).jpg','tw (2).jpg','tw (3).jpg',
       'tw (58).jpg','tw (59).jpg','tw (60).jpg']
 
 lista = controle + tw
-"""
-
-lista = ['controle (34).jpg']
 
 lista_estrutura = []
 lista_estrutura_bin = []
@@ -51,11 +53,6 @@ lista_reconstrucao = []
 lista_reconstrucao_bin = []
 lista_area = []
 lista_area_bin = []
-
-import numpy as np
-import cv2
-import skimage.morphology as mm
-import matplotlib.pyplot as plt
 
 def abertura_residuo(a,B,Bc,tipo):
     if tipo == 'reconstrucao':
