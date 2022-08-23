@@ -5,9 +5,7 @@ Também, é possível encontrar a aplicação do segmentador morfológico *water
 
 ###### PASTAS (FOLDERS)
 
-* desenho 
-
-Está contido todas as funções de desenho, por exemplo, *line.py*, *circulo.py*, etc..
+* desenho: Está contido todas as funções de desenho, por exemplo, *line.py*, *circulo.py*, etc..
 
 
 
