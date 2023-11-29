@@ -91,21 +91,19 @@ for imagem in lista:
     abe_area = abe_strut.copy()      
     abe_area_bin = abe_strut.copy()
     
-    raios = range(1,iteracoes+1)                                    # -> Elemento Estruturante é um disco 
-
-    for i in raios:
+    for i in range(1,iteracoes+1):
         print(i)
         B = mm.disk(i)
 
-        soma, soma_bin = abertura_residuo(a,B,Bc,'estrutural')      # Chama função crianda anteriormente
+        soma, soma_bin = abertura_residuo(a,B,Bc,'estrutural')
         abe_strut[i] = soma
         abe_strut_bin[i] = soma_bin
 
-        soma, soma_bin = abertura_residuo(a,B,Bc,'reconstrucao')    # Chama função crianda anteriormente
+        soma, soma_bin = abertura_residuo(a,B,Bc,'reconstrucao')
         abe_rec[i] = soma
         abe_rec_bin[i] = soma_bin
 
-        soma, soma_bin = abertura_residuo(a,B,Bc,'area')            # Chama função crianda anteriormente
+        soma, soma_bin = abertura_residuo(a,B,Bc,'area')       
         abe_area[i] = soma
         abe_area_bin[i] = soma_bin
         
