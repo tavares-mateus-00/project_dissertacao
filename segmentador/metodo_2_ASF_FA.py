@@ -19,7 +19,7 @@ r = img[:,:,0]
 
 asf_rec_fa = []
 
-n = 20
+n = 13
 
 e_e = mm.disk(1)
 
