@@ -1,7 +1,6 @@
 import numpy as  np
 import cv2 as cv
 from skimage.segmentation import watershed
-import skimage.morphology as mm
 
 desenho = False
 linha = False
@@ -17,11 +16,11 @@ linha_colorida = [(0,255,255),(255,255,0),(0,255,0),(0,0,255),(205,90,106),
                   (0,255,127),(30,105,210),(130,0,75),(255,0,255),(255,0,0)]
 
 linha_cinza = [(128,128,128),(79,79,79),(192,192,192),(169,169,169),(220,220,220),
-               (255,255,255),(119,136,153),(47,79,79),(211,211,211),(105,105,105)]
+               (255,255,255),(119,119,119),(89,89,89),(211,211,211),(105,105,105)]
 
 point = list()
 
-img = cv.imread('controle (45).jpg')
+img = cv.imread()
 
 
 def desenho_livre(evento,x,y,flags,param):
@@ -54,7 +53,6 @@ def desenho_livre(evento,x,y,flags,param):
             cv.circle(img,point[1],2,(0,0,255),thickness=1)
             point.clear()
     
-
 cv.namedWindow(winname='meu_desenho')
 
 cv.setMouseCallback('meu_desenho', desenho_livre)
@@ -68,7 +66,7 @@ while True:
     if k == ord('x') or k == ord('X'):
         break
 
-    elif k == 27:
+    elif k == 27: # Tecla ESC for precionada.
         circ = False
         linha = False
         livre = False
@@ -77,23 +75,19 @@ while True:
     elif k > 0 and chr(k).isdigit():
         troca_cor = int(chr(k))
 
-    elif k == ord('l') or k == ord('L'):
+    elif k == ord('l') or k == ord('L'): # Tecla L ou l for precionada. Faz um segmento de reta.
         linha = True
         circ = False
         livre = False
 
-    elif k == ord('c') or k == ord('C'):
+    elif k == ord('c') or k == ord('C'): # Tecla C ou c for precionada. Faz um circunferência.
         circ = True
         linha = False
         livre = False
 
-    elif k == ord('w') or k == ord('W'):
+    elif k == ord('w') or k == ord('W'): # Tecla W ou w for precionada. Desenho livre.
         circ = False
         linha = False
         livre = True
             
 cv.destroyAllWindows()
-
-
-# 8 conexo connectivity = 2
-# 4 conexo connectivity = 1
