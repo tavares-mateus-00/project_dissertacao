@@ -24,7 +24,7 @@ wy = -1
 troca_cor = 1
 linha_colorida = [(0,255,255),(255,255,0),(0,255,0),(0,0,255),(205,90,106)]
 
-img = cv.imread('controle (45).jpg')
+img = cv.imread()
 
 img_copia = img.copy()
 
@@ -113,7 +113,7 @@ while True:
         livre = False
         borracha = False
 
-    elif k == ord('p') or k == ord('P'):
+    elif k == ord('p') or k == ord('P'): # Função TESOURA. Recorta a região escolhida pelo usuário.
         print('TESOURA')
         circ = False
         livre = False
