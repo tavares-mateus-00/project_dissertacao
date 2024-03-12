@@ -1,7 +1,5 @@
-import numpy as  np
+import numpy as np
 import cv2 as cv
-from skimage.segmentation import watershed
-import skimage.morphology as mm
 import math as mt
 
 desenho = False
@@ -25,13 +23,15 @@ linha_colorida = [(0,255,255),(255,255,0),(0,255,0),(0,0,255),(205,90,106),
                   (0,255,127),(30,105,210),(130,0,75),(255,0,255),(255,0,0)]
 
 linha_cinza = [(128,128,128),(79,79,79),(192,192,192),(169,169,169),(220,220,220),
-               (255,255,255),(119,136,153),(47,79,79),(211,211,211),(105,105,105)]
+               (255,255,255),(119,119,119),(89,89,89),(211,211,211),(105,105,105)]
 
 point = list()
 
-img = cv.imread('controle (45).jpg')
+img = cv.imread('')
 
 img_c = img.copy()
+
+# Função borracha. Limpar o que está dentro de uma determinada área escolhida pelo usuário.
 
 def clear(x,y,jx,jy):
     for coluna in range(x,jx+1,1):
@@ -40,6 +40,8 @@ def clear(x,y,jx,jy):
                 img[linha,coluna,0] = img_c[linha,coluna,0]
                 img[linha,coluna,1] = img_c[linha,coluna,1]
                 img[linha,coluna,2] = img_c[linha,coluna,2]
+
+# Calcular o raio automático da circunferência.
 
 def raio(x,y,kx,ky):
     return int(mt.sqrt((x - kx)**2 + (y - ky)**2))
@@ -89,7 +91,6 @@ def desenho_livre(evento,x,y,flags,param):
         jx,jy = x,y
 
     elif evento == cv.EVENT_LBUTTONUP and borracha == True:
-        #cv.rectangle(img_copia,(jx,jy),(x,y),(0,255,0),1)
         clear(jx,jy,x,y)
         clear(x,y,jx,jy)
     
@@ -148,7 +149,3 @@ while True:
         borracha = True
             
 cv.destroyAllWindows()
-
-
-# 8 conexo connectivity = 2
-# 4 conexo connectivity = 1
