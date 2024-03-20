@@ -23,6 +23,7 @@ Os conjuntos de dados utilizados neste trabalho foram criadod pelos pesquisadore
 * O conjunto de dados (`data_set`) é composto por **120** microfotografias de dimensão 1024 por 768 pixels capturadas de amostras de tecido hepático dos ratos. As imagens estão divididas em duas classes: *Controle* (C) e *Tumor de Walker 256* (TW). Cada classe é formada por 60 microfotografias de seis ratos, 10 de cada rato.
 
 * O conjunto de dados (`data_set_`) é composto por **240** microfotografias de dimensão 1024 por 768 pixels capturadas de amostras de tecido hepático dos ratos. As imagens estão divididas em quatro classes: *Controle* (C),  *Controle Tratado* (CTG), *Tumor de Walker 256* (TW) e *Tumor de Walker 256 Tratado* (TWGT). Cada classe é formada por 60 microfotografias de seis ratos, 10 cada rato.
-* 
+
+**Imagens Resultantes** ... 
 
 $\text{Divrita-se!!!}$ 😁
