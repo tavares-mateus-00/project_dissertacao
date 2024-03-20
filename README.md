@@ -1,6 +1,6 @@
 Olá, tudo bem? Espero que sim! 
 
-Neste projeto você encontrara algumas coisas desenvolvidas no meu mestrado em Ciência da Computação.
+Neste projeto você encontrara o meu mestrado em Ciência da Computação.
 
 **Autor**: $\text{Ninguém}$;
 **Orientador**: $\text{Franklin César Flores}$;
