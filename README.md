@@ -4,10 +4,16 @@ Neste projeto você encontrara algumas coisas desenvolvidas no meu mestrado em C
 
 **Autor**: $\text{Ninguém}$;
 **Orientador**: $\text{Franklin César Flores}$;
-**Coorientador**: Yandre ...
+**Coorientador**: $\text{Yandre Maldonado e Gomes da Costa}$
 
 **Título**: PROCESSAMENTO DE FOTOMICROGRAFIAS DE FÍGADOS DE RATOS POR MORFOLOGIA MATEMÁTICA E APRENDIZADO DE MÁQUINA.
 
 **Universidade**: Universidade Estadual de Maringá - UEM
 
-Este trabalho tem a finalidade de encontrar núcleos em uma imagem de tecido hepático de ratos, por tecido hepático entende-se FÍGADO.
+**Resumo**: 
+
+**Resultados**: 
+
+**LP**: Todos os códigos foram desenvolvidos utilizando a linguagem de programação `Python`. 
+
+$\text{Divrita-se!!!}$
