@@ -18,8 +18,8 @@ Neste projeto você encontrara o meu mestrado em Ciência da Computação.
 
 Os conjuntos de dados utilizados neste trabalho foram criadod pelos pesquisadores do LPNE da UEM. Para isso, foram utilizados ratos adultos machos, da linhagem Wistar. Todos os procedimentos envolvendo os animais foram previamente aprovados pela _Comissão Permanente de Ética em Experimentação Animal_ da UEM.
 
-* O conjunto de dados (`data_set`) é composto por 120 microfotografias de dimensão 1024 por 768 pixels capturadas de amostras de tecido hepático dos ratos. As imagens estão divididas em duas classes: *Controle* (C) e *Tumor de Walker 256* (TW). Cada classe é formada por 60 microfotografias de seis ratos, 10 de cada rato.
+* O conjunto de dados (`data_set`) é composto por **120** microfotografias de dimensão 1024 por 768 pixels capturadas de amostras de tecido hepático dos ratos. As imagens estão divididas em duas classes: *Controle* (C) e *Tumor de Walker 256* (TW). Cada classe é formada por 60 microfotografias de seis ratos, 10 de cada rato.
 
-* O conjunto de dados (`data_set_`) é composto por 240 microfotografias de dimensão 1024 por 768 pixels capturadas de amostras de tecido hepático dos ratos. As imagens estão divididas em quatro classes: *Controle* (C),  *Controle Tratado* (CTG), *Tumor de Walker 256* (TW) e *Tumor de Walker 256 Tratado* (TWGT). Cada classe é formada por 60 microfotografias de seis ratos, 10 cada rato.
+* O conjunto de dados (`data_set_`) é composto por **240** microfotografias de dimensão 1024 por 768 pixels capturadas de amostras de tecido hepático dos ratos. As imagens estão divididas em quatro classes: *Controle* (C),  *Controle Tratado* (CTG), *Tumor de Walker 256* (TW) e *Tumor de Walker 256 Tratado* (TWGT). Cada classe é formada por 60 microfotografias de seis ratos, 10 cada rato.
 
 $\text{Divrita-se!!!}$ 😁
