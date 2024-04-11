@@ -34,6 +34,6 @@ Os conjuntos de dados utilizados neste trabalho foram criados pelos pesquisadore
 
 ### $\text{IMAGEM RESULTANTE}$
 
-![Resultado do método 1]()
+![Resultado do método 1](https://github.com/mafta-00/project_dissertacao/blob/main/image_results/ct-seg-primeira.png)
 
 $\text{Divrita-se!!!}$ 😁
