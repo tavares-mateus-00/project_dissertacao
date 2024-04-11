@@ -34,4 +34,6 @@ Os conjuntos de dados utilizados neste trabalho foram criados pelos pesquisadore
 
 ### $\text{IMAGEM RESULTANTE}$
 
+![Resultado do método 1]()
+
 $\text{Divrita-se!!!}$ 😁
