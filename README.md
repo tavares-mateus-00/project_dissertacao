@@ -4,7 +4,7 @@ Olá, tudo bem? Espero que sim!
 
 Neste projeto você encontrara o meu mestrado em Ciência da Computação.
 
-**Autor**: $\text{Mateus Tavares}$;
+**Autor**: $\text{NoBoRy}$;
 **Orientador**: $\text{Franklin César Flores}$;
 **Coorientador**: $\text{Yandre Maldonado e Gomes da Costa}$
 
