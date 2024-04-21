@@ -54,4 +54,5 @@ DOI = {10.3390/a15080268}
 }
 ```
 * $\text{Segmentação}$
+
 $\text{Divirta-se!!!}$ 😁
