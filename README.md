@@ -41,16 +41,27 @@ Os conjuntos de dados utilizados neste trabalho foram criados pelos pesquisadore
 * $\text{Classificação}$
 
 @Article{a15080268,
+
 AUTHOR = {Carvalho, Mateus F. T. and Silva, Sergio A. and Bernardo, Carla Cristina O. and Flores, Franklin César and Perles, Juliana Vanessa C. M. and Zanoni, Jacqueline Nelisis and Costa, Yandre M. G.},
+
 TITLE = {Cancer Identification in Walker 256 Tumor Model Exploring Texture Properties Taken from Microphotograph of Rats Liver},
+
 JOURNAL = {Algorithms},
+
 VOLUME = {15},
+
 YEAR = {2022},
+
 NUMBER = {8},
+
 ARTICLE-NUMBER = {268},
+
 URL = {https://www.mdpi.com/1999-4893/15/8/268},
+
 ISSN = {1999-4893},
+
 DOI = {10.3390/a15080268}
+
 }
 
 * $\text{Segmentação}$
