@@ -22,7 +22,7 @@ Experimentos realizados em conjuntos de dados desenvolvidos pelo Laboratório de
 
 ### $\text{LP}$
 
-Todos os códigos foram desenvolvidos utilizando a linguagem de programação `Python`. Os algoritmos de Aprendizado de Máquina (AM) e de Processamento Digital de Imagens (PDI) foram todos pegos dos sítios [Sklearn](https://scikit-learn.org/stable/) e [Skimage](https://scikit-image.org/).
+Todos os códigos foram desenvolvidos utilizando a linguagem de programação `Python`. As técnicas de Aprendizado de Máquina (AM) e de Processamento Digital de Imagens (PDI) utilizadas foram obtidas dos sítios [Sklearn](https://scikit-learn.org/stable/) e [Skimage](https://scikit-image.org/).
 
 ### $\text{Conjunto de Dados / DATA SET}$
 
