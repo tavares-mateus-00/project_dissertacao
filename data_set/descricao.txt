@@ -1,0 +1,8 @@
+Conjunto de dados
+
++ C: Controle
++ TW: Tumor de Walker-256
++ CTG: Controle tratado
++ TWTG: Tumor de Walker-256 tratado
+
+O grupo controle (C e CTG) é formada por imagens de indivíduos que saudáveis. Já o grupo Tumor de Walker-256 (TW e TWTG) é formado por imagens de indivíduos contaminado com o Tumor/carcinossarcoma de Walker-256, o qual é um modelo de tumor disponíveis para estudos experimentais nas áreas médicas e biológicas em diferentes linhas de pesquisa, descoberto em 1928 por George Walker.
