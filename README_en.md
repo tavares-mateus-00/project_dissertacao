@@ -4,7 +4,7 @@ Hello, how are you? I hope you're doing well!
 
 In this project, you will find my Master's in Computer Science.
 
-**Author**: $\text{NoBoRy}$;
+**Author**: $\text{Mateus Tavares}$;
 **Supervisor**: $\text{Franklin César Flores}$;
 **Co-supervisor**: $\text{Yandre Maldonado e Gomes da Costa}$
 
