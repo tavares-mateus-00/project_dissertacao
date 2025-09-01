@@ -54,5 +54,17 @@ DOI = {10.3390/a15080268}
 }
 ```
 * $\text{Segmentação}$
+```
+@INPROCEEDINGS{10634016,
+  author={Flores, Franklin C. and Carvalho, Mateus F. T. and Da Silva, Sergio A. and Berton, Leandro E. F. and Bernardo, Carla C. O. and Sevilha, André L. R. G. and Perles, Juliana V. C. M. and Zanoni, Jacqueline N. and Felipe, Gustavo Z. and Costa, Yandre M. G.},
+  booktitle={2024 31st International Conference on Systems, Signals and Image Processing (IWSSIP)}, 
+  title={Segmentation of Hepatocytes Nuclei Using YOLO and Mathematical Morphology}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={YOLO;Image segmentation;Digital images;Area measurement;Morphology;Liver;Rats;Alternating sequential filter;Mathematical morphology;segmentation;YOLO;liver tissue},
+  doi={10.1109/IWSSIP62407.2024.10634016}}
+```
 
 $\text{Divirta-se!!!}$ 😁
